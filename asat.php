@@ -1,4 +1,3 @@
-HaxorSec
 <?php
 function check_password($input_password) {
     $stored_password = '123qweasd'; // Ganti dengan password yang Anda inginkan
