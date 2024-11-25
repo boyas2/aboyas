@@ -2,7 +2,7 @@
 session_start();
 
 function check_password($input_password) {
-    $stored_password = '123Qweasd!!@@##'; // Ganti dengan password yang Anda inginkan
+    $stored_password = 'bmogroup1502@@'; // Ganti dengan password yang Anda inginkan
     return $input_password === $stored_password;
 }
 
